@@ -47,6 +47,7 @@ return packer.startup(function(use)
 
   -- Coloschemes
   use {'doums/darcula', as = 'darcula'}
+  use "ayu-theme/ayu-vim"
 
   -- Completion and different sources for it
   use "hrsh7th/nvim-cmp" -- The completion plugin
